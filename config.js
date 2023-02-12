@@ -6,9 +6,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Sri lanka').format('HH')
+    let wibm = moment.tz('Asia/Sri lanka').format('mm')
+    let wibs = moment.tz('Asia/Sri Lanka').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -36,23 +36,23 @@ global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = '085731947500'
-global.povo = '-'
-global.pgopay = '085731947500'
-global.ppulsa = '085731947500'
-global.ppulsa2 = '085749543572'
+global.pdana = '94761091578'
+global.povo = '.'
+global.pgopay = '94761091578'
+global.ppulsa = '94761091578'
+global.ppulsa2 = '94761091578'
 global.psaweria = 'https://saweria.co/oktakc'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285749543572'
-global.nomorown = '6285731947500'
-global.namebot = 'Nakano Nino'
-global.nameown = 'Okta'
+global.nomorbot = '94761091578'
+global.nomorown = '9476109157('
+global.namebot = '👑 Mihiruk King 👑'
+global.nameown = 'Mihiruk'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285731947500', 'Okta', 'true']
+  ['94761091578', 'Mihiruj', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -103,13 +103,13 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'Nakano Ninoラ | By Okta' //Main Watermark
-global.wm2 = 'Okta'
+global.wm = 'Mihiruk Kingラ | By Mihiruk' //Main Watermark
+global.wm2 = 'Mihiruk'
 global.wm3 = 'Jangan Lupa Subscribe ChataOfc-'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `NinoBotzラ | ʙʏ ${global.nameown}`
-global.author = 'Okta' 
+global.author = 'Mihiruk' 
 global.packname = 'ChataOfc'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.ultahowner = 'November 4 2023'
